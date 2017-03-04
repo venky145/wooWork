@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F9796E1E6B08C700887D5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9796D1E6B08C700887D5A /* main.m */; };
+		18F979711E6B08C700887D5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F979701E6B08C700887D5A /* AppDelegate.m */; };
+		18F979741E6B08C700887D5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F979731E6B08C700887D5A /* ViewController.m */; };
+		18F979771E6B08C700887D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F979751E6B08C700887D5A /* Main.storyboard */; };
+		18F9797A1E6B08C700887D5A /* Woolah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F979781E6B08C700887D5A /* Woolah.xcdatamodeld */; };
+		18F9797C1E6B08C700887D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F9797B1E6B08C700887D5A /* Assets.xcassets */; };
+		18F9797F1E6B08C700887D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F9797D1E6B08C700887D5A /* LaunchScreen.storyboard */; };
+		18F9798A1E6B08C800887D5A /* WoolahTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F979891E6B08C800887D5A /* WoolahTests.m */; };
+		18F979951E6B08C800887D5A /* WoolahUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F979941E6B08C800887D5A /* WoolahUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F979861E6B08C800887D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F979611E6B08C700887D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F979681E6B08C700887D5A;
+			remoteInfo = Woolah;
+		};
+		18F979911E6B08C800887D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F979611E6B08C700887D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F979681E6B08C700887D5A;
+			remoteInfo = Woolah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F979691E6B08C700887D5A /* Woolah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woolah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F9796D1E6B08C700887D5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F9796F1E6B08C700887D5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F979701E6B08C700887D5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F979721E6B08C700887D5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F979731E6B08C700887D5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F979761E6B08C700887D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F979791E6B08C700887D5A /* Woolah.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Woolah.xcdatamodel; sourceTree = "<group>"; };
+		18F9797B1E6B08C700887D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F9797E1E6B08C700887D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F979801E6B08C700887D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F979851E6B08C800887D5A /* WoolahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoolahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F979891E6B08C800887D5A /* WoolahTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoolahTests.m; sourceTree = "<group>"; };
+		18F9798B1E6B08C800887D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F979901E6B08C800887D5A /* WoolahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoolahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F979941E6B08C800887D5A /* WoolahUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoolahUITests.m; sourceTree = "<group>"; };
+		18F979961E6B08C800887D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F979661E6B08C700887D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F979821E6B08C800887D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F9798D1E6B08C800887D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F979601E6B08C700887D5A = {
+			isa = PBXGroup;
+			children = (
+				18F9796B1E6B08C700887D5A /* Woolah */,
+				18F979881E6B08C800887D5A /* WoolahTests */,
+				18F979931E6B08C800887D5A /* WoolahUITests */,
+				18F9796A1E6B08C700887D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F9796A1E6B08C700887D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F979691E6B08C700887D5A /* Woolah.app */,
+				18F979851E6B08C800887D5A /* WoolahTests.xctest */,
+				18F979901E6B08C800887D5A /* WoolahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F9796B1E6B08C700887D5A /* Woolah */ = {
+			isa = PBXGroup;
+			children = (
+				18F9796F1E6B08C700887D5A /* AppDelegate.h */,
+				18F979701E6B08C700887D5A /* AppDelegate.m */,
+				18F979721E6B08C700887D5A /* ViewController.h */,
+				18F979731E6B08C700887D5A /* ViewController.m */,
+				18F979751E6B08C700887D5A /* Main.storyboard */,
+				18F9797B1E6B08C700887D5A /* Assets.xcassets */,
+				18F9797D1E6B08C700887D5A /* LaunchScreen.storyboard */,
+				18F979801E6B08C700887D5A /* Info.plist */,
+				18F979781E6B08C700887D5A /* Woolah.xcdatamodeld */,
+				18F9796C1E6B08C700887D5A /* Supporting Files */,
+			);
+			path = Woolah;
+			sourceTree = "<group>";
+		};
+		18F9796C1E6B08C700887D5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F9796D1E6B08C700887D5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F979881E6B08C800887D5A /* WoolahTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F979891E6B08C800887D5A /* WoolahTests.m */,
+				18F9798B1E6B08C800887D5A /* Info.plist */,
+			);
+			path = WoolahTests;
+			sourceTree = "<group>";
+		};
+		18F979931E6B08C800887D5A /* WoolahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F979941E6B08C800887D5A /* WoolahUITests.m */,
+				18F979961E6B08C800887D5A /* Info.plist */,
+			);
+			path = WoolahUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F979681E6B08C700887D5A /* Woolah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F979991E6B08C800887D5A /* Build configuration list for PBXNativeTarget "Woolah" */;
+			buildPhases = (
+				18F979651E6B08C700887D5A /* Sources */,
+				18F979661E6B08C700887D5A /* Frameworks */,
+				18F979671E6B08C700887D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Woolah;
+			productName = Woolah;
+			productReference = 18F979691E6B08C700887D5A /* Woolah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F979841E6B08C800887D5A /* WoolahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F9799C1E6B08C800887D5A /* Build configuration list for PBXNativeTarget "WoolahTests" */;
+			buildPhases = (
+				18F979811E6B08C800887D5A /* Sources */,
+				18F979821E6B08C800887D5A /* Frameworks */,
+				18F979831E6B08C800887D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F979871E6B08C800887D5A /* PBXTargetDependency */,
+			);
+			name = WoolahTests;
+			productName = WoolahTests;
+			productReference = 18F979851E6B08C800887D5A /* WoolahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F9798F1E6B08C800887D5A /* WoolahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F9799F1E6B08C800887D5A /* Build configuration list for PBXNativeTarget "WoolahUITests" */;
+			buildPhases = (
+				18F9798C1E6B08C800887D5A /* Sources */,
+				18F9798D1E6B08C800887D5A /* Frameworks */,
+				18F9798E1E6B08C800887D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F979921E6B08C800887D5A /* PBXTargetDependency */,
+			);
+			name = WoolahUITests;
+			productName = WoolahUITests;
+			productReference = 18F979901E6B08C800887D5A /* WoolahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F979611E6B08C700887D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luecas Aspera Technologies Pvt Ltd";
+				TargetAttributes = {
+					18F979681E6B08C700887D5A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					18F979841E6B08C800887D5A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F979681E6B08C700887D5A;
+					};
+					18F9798F1E6B08C800887D5A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F979681E6B08C700887D5A;
+					};
+				};
+			};
+			buildConfigurationList = 18F979641E6B08C700887D5A /* Build configuration list for PBXProject "Woolah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F979601E6B08C700887D5A;
+			productRefGroup = 18F9796A1E6B08C700887D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F979681E6B08C700887D5A /* Woolah */,
+				18F979841E6B08C800887D5A /* WoolahTests */,
+				18F9798F1E6B08C800887D5A /* WoolahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F979671E6B08C700887D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F9797F1E6B08C700887D5A /* LaunchScreen.storyboard in Resources */,
+				18F9797C1E6B08C700887D5A /* Assets.xcassets in Resources */,
+				18F979771E6B08C700887D5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F979831E6B08C800887D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F9798E1E6B08C800887D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F979651E6B08C700887D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F979741E6B08C700887D5A /* ViewController.m in Sources */,
+				18F9797A1E6B08C700887D5A /* Woolah.xcdatamodeld in Sources */,
+				18F979711E6B08C700887D5A /* AppDelegate.m in Sources */,
+				18F9796E1E6B08C700887D5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F979811E6B08C800887D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F9798A1E6B08C800887D5A /* WoolahTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F9798C1E6B08C800887D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F979951E6B08C800887D5A /* WoolahUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F979871E6B08C800887D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F979681E6B08C700887D5A /* Woolah */;
+			targetProxy = 18F979861E6B08C800887D5A /* PBXContainerItemProxy */;
+		};
+		18F979921E6B08C800887D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F979681E6B08C700887D5A /* Woolah */;
+			targetProxy = 18F979911E6B08C800887D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F979751E6B08C700887D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F979761E6B08C700887D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F9797D1E6B08C700887D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F9797E1E6B08C700887D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F979971E6B08C800887D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F979981E6B08C800887D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F9799A1E6B08C800887D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Woolah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luecas-Aspera-Technologies-Pvt-Ltd.Woolah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F9799B1E6B08C800887D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Woolah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luecas-Aspera-Technologies-Pvt-Ltd.Woolah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F9799D1E6B08C800887D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoolahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luecas-Aspera-Technologies-Pvt-Ltd.WoolahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woolah.app/Woolah";
+			};
+			name = Debug;
+		};
+		18F9799E1E6B08C800887D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoolahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luecas-Aspera-Technologies-Pvt-Ltd.WoolahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woolah.app/Woolah";
+			};
+			name = Release;
+		};
+		18F979A01E6B08C800887D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoolahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luecas-Aspera-Technologies-Pvt-Ltd.WoolahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Woolah;
+			};
+			name = Debug;
+		};
+		18F979A11E6B08C800887D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoolahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luecas-Aspera-Technologies-Pvt-Ltd.WoolahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Woolah;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F979641E6B08C700887D5A /* Build configuration list for PBXProject "Woolah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F979971E6B08C800887D5A /* Debug */,
+				18F979981E6B08C800887D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F979991E6B08C800887D5A /* Build configuration list for PBXNativeTarget "Woolah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F9799A1E6B08C800887D5A /* Debug */,
+				18F9799B1E6B08C800887D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F9799C1E6B08C800887D5A /* Build configuration list for PBXNativeTarget "WoolahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F9799D1E6B08C800887D5A /* Debug */,
+				18F9799E1E6B08C800887D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F9799F1E6B08C800887D5A /* Build configuration list for PBXNativeTarget "WoolahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F979A01E6B08C800887D5A /* Debug */,
+				18F979A11E6B08C800887D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18F979781E6B08C700887D5A /* Woolah.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18F979791E6B08C700887D5A /* Woolah.xcdatamodel */,
+			);
+			currentVersion = 18F979791E6B08C700887D5A /* Woolah.xcdatamodel */;
+			path = Woolah.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18F979611E6B08C700887D5A /* Project object */;
+}
